@@ -1,0 +1,19 @@
+﻿Questions-1: Which Statement is correct?
+a. Properties of anonymous types will be read-only properties so you cannot change their values.
+b. A dynamic type escapes type checking at run time.
+c. Struct can declare a default constructor like a class.
+d. Partial classes can have different class names.
+----------------------------------------------------------------------------------------------------
+Answer-1:
+a. Correct
+
+b. Incorrect.
+   A dynamic type escapes type checking at compile time.
+
+c. Incorrect.
+   Struct can contain parameterized constructor & static constructor.
+
+d. Incorrect.
+   Partial classes must have same class name.
+   Partial classes are spread across multiple files with different filenames.
+----------------------------------------------------------------------------------------------------
